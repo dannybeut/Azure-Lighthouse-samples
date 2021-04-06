@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Specify a unique name for your offer"
             },
-            "defaultValue": "<to be filled out by MSP> Specify a title for your offer"
+            "defaultValue": "Invite Networks Managed Services"
 
         },
         "mspOfferDescription": {
@@ -15,14 +15,14 @@
             "metadata": {
                 "description": "Name of the Managed Service Provider offering"
             },
-            "defaultValue": "<to be filled out by MSP> Provide a brief description of your offer"
+            "defaultValue": "Invite Networks Managed Services"
         },
         "managedByTenantId": {
             "type": "string",
             "metadata": {
                 "description": "Specify the tenant id of the Managed Service Provider"
             },
-            "defaultValue": "<to be filled out by MSP> Provide your tenant id"
+            "defaultValue": "8f4eee60-a650-4782-b898-ae79841769f0"
         },
         "authorizations": {
             "type": "array",
@@ -30,16 +30,26 @@
                 "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
             },
             "defaultValue": [
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
+               { 
+                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c", 
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
+                    "principalIdDisplayName": "Basic User Management Group" 
                 }, 
                 { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
+                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c", 
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group" 
-                }   
+                    "principalIdDisplayName": "Basic User Management Group"
+                    
+                },
+                {
+                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c",
+                    "principalIdDisplayName": "Basic User Management Group",
+                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "delegatedRoleDefinitionIds": [
+                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+                    ]
+                } 
             ]
         }              
     },
