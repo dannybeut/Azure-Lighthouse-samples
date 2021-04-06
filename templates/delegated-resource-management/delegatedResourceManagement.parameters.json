@@ -3,30 +3,30 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Invite Networks Managed Services"
+            "value": "Relecloud Managed Services"
         },
         "mspOfferDescription": {
-            "value": "Invite Networks Managed Services"
+            "value": "Relecloud Managed Services"
         },
         "managedByTenantId": {
-            "value": "8f4eee60-a650-4782-b898-ae79841769f0"
+            "value": "<insert managing tenant id>"
         },
         "authorizations": {
             "value": [
                 { 
-                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c", 
+                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "Basic User Management Group" 
+                    "principalIdDisplayName": "PIM_Group" 
                 }, 
                 { 
-                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c", 
+                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "Basic User Management Group"
+                    "principalIdDisplayName": "PIM_Group"
                     
                 },
                 {
-                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c",
-                    "principalIdDisplayName": "Basic User Management Group",
+                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244",
+                    "principalIdDisplayName": "PIM_Group",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
                         "b24988ac-6180-42a0-ab88-20f7382dd24c",
