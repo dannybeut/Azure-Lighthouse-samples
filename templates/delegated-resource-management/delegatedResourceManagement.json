@@ -31,18 +31,18 @@
             },
             "defaultValue": [
                { 
-                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c", 
+                    "principalId": "ac49fa20-c4ea-42d1-9e36-4c5f14297e8f", 
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
                     "principalIdDisplayName": "Basic User Management Group" 
                 }, 
                 { 
-                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c", 
+                    "principalId": "ac49fa20-c4ea-42d1-9e36-4c5f14297e8f", 
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
                     "principalIdDisplayName": "Basic User Management Group"
                     
                 },
                 {
-                    "principalId": "67315501-d262-4a90-abc8-fb30503c615c",
+                    "principalId": "ac49fa20-c4ea-42d1-9e36-4c5f14297e8f",
                     "principalIdDisplayName": "Basic User Management Group",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
