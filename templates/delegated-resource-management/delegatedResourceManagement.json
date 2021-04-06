@@ -37,6 +37,11 @@
                 }, 
                 { 
                     "principalId": "ac49fa20-c4ea-42d1-9e36-4c5f14297e8f", 
+                    "roleDefinitionId": "29232cdf-9323-42fd-ade2-1d097af3e4de",
+                    "principalIdDisplayName": "Basic User Management Group" 
+                }, 
+                { 
+                    "principalId": "ac49fa20-c4ea-42d1-9e36-4c5f14297e8f", 
                     "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
                     "principalIdDisplayName": "Basic User Management Group"
                     
